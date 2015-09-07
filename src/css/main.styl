@@ -1,0 +1,100 @@
+@import nib
+global-reset()
+
+$body-color = #000
+$link-color = #904199
+$link-hover-color = #d059a0
+
+$heart-color = #f00
+
+// @stylint off
+*
+  box-sizing border-box
+// @stylint on
+
+body
+  font-size 18px
+  font-family Ubuntu, "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif
+
+a,
+a:link,
+a:visited
+  color $link-color
+
+a:hover
+  color $link-hover-color
+
+a.active
+  text-decoration underline
+
+
+footer.main
+  color $heart-color
+  font-size .8em
+  margin 5em 0 1em
+  text-align center
+  width 100%
+
+  a
+    text-decoration none
+
+
+.toggle
+  span
+    background-color $link-color
+
+h2
+  text-align center
+  font-size 1.3em
+  margin 0 0 1em
+
+img
+  max-height 100%
+  max-width 100%
+
+header.main
+  text-align center
+
+a.logo
+  display inline-block
+  margin 0 auto
+  width 80%
+
+  img
+    float left
+
+div#wrapper
+  margin 0 auto
+  max-width 800px
+  padding 0
+  width 90%
+
+p
+  margin 0 0 .5em
+
+section
+  display inline-block
+  padding 3em 0
+  text-align center
+  width 100%
+
+  ul
+    li
+      margin 0 0 2em
+      text-align center
+
+  &#video
+
+    #player
+      height 0px
+      overflow hidden
+      padding-bottom 56.25%
+      padding-top 30px
+      position relative
+
+      iframe
+        height 100%
+        left 0px
+        position absolute
+        top 0px
+        width 100%

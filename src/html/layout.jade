@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    block title
+      title EvoCell
+
+    link(rel='icon' href='/favicon.ico')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    block meta
+
+    link(rel='stylesheet', href='/css/main.css')
+
+  body(id='♥').nojs
+    div#wrapper
+      header.main
+        a.logo(href='/')
+          img(src='/img/evocell-logo.png')
+
+      div.content
+        block content
+          span 404 page not found
+
+    footer.main 
+      a(
+        target='utopia'
+        href='http://wizardsat.work'
+      ) wizards ♥ work
+   

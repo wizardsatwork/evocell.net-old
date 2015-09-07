@@ -1,0 +1,59 @@
+extends ../layout
+
+block meta
+  meta(
+    property='og:title'
+    content='EvoCell'
+  )
+
+  meta(
+    name='description'
+    property='og:description'
+    content='EvoCell description.'
+  )
+
+block title
+  title EvoCell
+
+block content
+  section#about
+    h2 about
+
+    div
+      p 
+        | EvoCell ist eine Engine und eine Plattform zum Erstellen 
+        | von Mini Games auf Basis von 
+        a(
+          href="https://en.wikipedia.org/wiki/Cellular_automaton"
+        ) “Zellulären Automaten”
+        | die mit den heutigen Grafikprozessoren (HTML5,  WebGL)
+        | effizient parallel berechnet werden können.
+
+      p Man kann Dinge auffressen
+      p Oder abschießen
+      p oder wachsen lassen
+      p …aber auch Puzzelgames, Retro Pixel Grafik, Game Engine, Physics Engine,
+      p sind möglich.
+
+  section#video
+    div.container
+      h2 The EvoCell Video!
+
+      div#player
+        iframe(
+          src='https://www.youtube.com/embed/0MjIy2lzaDo'
+          frameborder='0'
+          allowfullscreen='allowfullscreen'
+        )
+
+      p Watch this video to learn more about EvoCell.
+
+  if contact
+    section#contact
+      h2 Contact
+
+      p
+        | If you have questions or suggestions just contact us via
+        |  
+        a(href='mailto:' + contact.email) email
+
