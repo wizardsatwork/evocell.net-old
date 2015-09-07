@@ -1,7 +1,7 @@
 {
-  "name": "wizardsat.work",
+  "name": "evocell.net",
   "version": "0.0.1",
-  "description": "wizardsat.work page, built using magic",
+  "description": "evocell.net page, built using magic",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wizardsatwork/wizardsat.work.git"
+    "url": "git+https://github.com/wizardsatwork/evocell.net.git"
   },
   "author": "Wizards@Work",
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/wizardsatwork/wizardsat.work/issues"
+    "url": "https://github.com/wizardsatwork/evocell.net/issues"
   },
-  "homepage": "http://wizardsat.work",
+  "homepage": "http://evocell.net",
   "dependencies": {
-    "gulp": "^3.9.0",
     "builder": "magic/builder",
+    "gulp": "^3.9.0",
     "page": "^1.6.3",
     "utils": "magic/utils"
   },
