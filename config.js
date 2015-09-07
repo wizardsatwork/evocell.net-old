@@ -30,11 +30,11 @@ var server = {
     img: '/' + dirs.img + '/',
     js: '/' + dirs.js + '/',
     css: '/' + dirs.css + '/',
-  },
+  }
 };
 
 module.exports = {
-  CNAME: 'evocell.net',
+  CNAME: env === 'development' ? ['localhost'] : ['evocell.net'],
   port: 1337,
   pages: '/ /index.html',
   pageItems: {
