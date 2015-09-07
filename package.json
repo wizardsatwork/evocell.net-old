@@ -1,0 +1,42 @@
+{
+  "name": "wizardsat.work",
+  "version": "0.0.1",
+  "description": "wizardsat.work page, built using magic",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "production": "NODE_ENV='production' gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizardsatwork/wizardsat.work.git"
+  },
+  "author": "Wizards@Work",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wizardsatwork/wizardsat.work/issues"
+  },
+  "homepage": "http://wizardsat.work",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "builder": "magic/builder",
+    "page": "^1.6.3",
+    "utils": "magic/utils"
+  },
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "email": "jascha@magicshifter.net",
+      "github": "jaeh"
+    },
+    {
+      "name": "philipp tiefenbacher",
+      "email": "wizard23@magicshifter.net",
+      "github": "wizard23"
+    },
+    {
+      "name": "tom peak",
+      "github": "tompeak"
+    }
+  ]
+}
