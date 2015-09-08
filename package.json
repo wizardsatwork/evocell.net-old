@@ -17,11 +17,9 @@
     "url": "https://github.com/wizardsatwork/evocell.net/issues"
   },
   "homepage": "http://evocell.net",
-  "dependencies": {
+  "devDependencies": {
     "builder": "magic/builder",
     "gulp": "^3.9.0",
-    "page": "^1.6.3",
-    "utils": "magic/utils"
   },
   "contributors": [
     {
