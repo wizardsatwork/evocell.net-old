@@ -34,7 +34,7 @@ var server = {
 };
 
 module.exports = {
-  CNAME: env === 'development' ? ['localhost'] : ['evocell.net'],
+  CNAME: 'evocell.net',
   port: 1337,
   pages: '/ /index.html',
   pageItems: {
