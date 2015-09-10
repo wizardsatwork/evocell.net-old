@@ -4,8 +4,8 @@
   "description": "evocell.net page, built using magic",
   "main": "index.js",
   "scripts": {
-    "start": "gulp",
-    "production": "NODE_ENV='production' gulp"
+    "dev": "gulp",
+    "start": "NODE_ENV='production' gulp"
   },
   "repository": {
     "type": "git",
