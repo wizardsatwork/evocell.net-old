@@ -2,11 +2,6 @@
   "name": "evocell.net",
   "version": "0.0.1",
   "description": "evocell.net page, built using magic",
-  "main": "index.js",
-  "scripts": {
-    "dev": "gulp",
-    "start": "NODE_ENV='production' gulp"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wizardsatwork/evocell.net.git"
@@ -17,10 +12,6 @@
     "url": "https://github.com/wizardsatwork/evocell.net/issues"
   },
   "homepage": "http://evocell.net",
-  "devDependencies": {
-    "builder": "magic/builder",
-    "gulp": "^3.9.0",
-  },
   "contributors": [
     {
       "name": "jascha ehrenreich",
